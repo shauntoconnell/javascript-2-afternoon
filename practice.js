@@ -16,7 +16,12 @@
 
 //Code here
 
+const me = {
+  name: "Shaun",
+  age: 31
+};
 
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -25,7 +30,14 @@
   Have the values to those keys be your favorite thing in that category.
 */
 
-//Code here
+const favoriteThings = {
+  band: "Empire of the Sun",
+  food: "Curry",
+  person: "Yoda",
+  book: "Hitchhiker's Guide to the Galaxy",
+  movie: "Dude Where's My Car",
+  holiday: "Earth Day"
+};
 
 
 
@@ -35,7 +47,8 @@
 
 //Code here
 
-
+favoriteThings["car"] = "VW Rabbit";
+favoriteThings["brand"] = "Supreme";
 
 /*
   Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
@@ -43,7 +56,8 @@
 
 //Code here
 
-
+favoriteThings["food"] = "Chicken Nuggets";
+favoriteThings["book"] = "Harry Potter";
 
 ////////// PROBLEM 3 //////////
 
@@ -57,6 +71,13 @@
 
 //Code here
 
+const backPack = {};
+
+const item = 'firstPocket';
+
+backPack[item] = 'chapstick';
+
+backPack.color = 'all the colors of the rainbow';
 
 
 /*
@@ -65,7 +86,7 @@
 
 //Code here
 
-
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -75,7 +96,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -98,7 +119,8 @@ var user2 = {
 
 //Code Here
 
-
+user2["name"] = "Tyler S. McGinnis";
+user2["email"] = "tyler.mcginnis@devmounta.in";
 
 
 
